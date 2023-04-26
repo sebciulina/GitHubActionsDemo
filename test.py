@@ -8,7 +8,7 @@ class TestQuicksort(unittest.TestCase):
         self.assertEqual(quicksort([]), [])
 
     def test_sort_single_element_list(self):
-        self.assertEqual(quicksort([5]), [6])
+        self.assertEqual(quicksort([5]), [5])
 
     def test_sort_already_sorted_list(self):
         self.assertEqual(quicksort([1, 2, 3, 4, 5]), [1, 2, 3, 4, 5])
